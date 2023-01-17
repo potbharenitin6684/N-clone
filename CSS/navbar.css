@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+#navbar {
+  background-image: url(https://adn-static1.nykaa.com/media/wysiwyg/2021/common-strip.jpg);
+  height: 45px !important;
+  background-size: cover !important;
+  background-color: #fc2779;
+  /* margin-top: 10px ; */
+  /* background-repeat: no-repeat;
+  background-position: center center; */
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+}
+#right {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  margin-left: 300px;
+  font-weight: bold;
+}
+#right > p > a {
+  display: flex;
+  color: #424242;
+  text-decoration: none;
+  
+}
+#right > p > a:hover {
+  color: #fc2779;
+}
+marquee {
+  color: black;
+  padding: 10px;
+  display: flex;
+}
+marquee > a {
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 90px;
+}
+#navbar-down {
+  margin-top: 10px;
+  margin-left: 100px;
+  gap: 10px;
+}
+#navbar-down > div:last-child {
+  display: flex;
+  margin-top: -25px;
+  margin-left: 130px;
+  gap: 30px;
+}
+#navbar-down > div:last-child a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #424242;
+}
+#navbar-down > div:last-child a:hover {
+  color: #fc2779;
+}
+#search {
+  margin-left: 800px;
+  margin-top: -27px;
+}
+#search input {
+  height: 35px;
+  width: 250px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  transition-duration: 0.1s;
+}
+#search input:hover {
+  width: 270px;
+  height: 40px;
+}
+#search i {
+  background-color: #e0e0e0;
+  padding: 2xpx;
+  border-radius: 7px;
+}
+#search > a {
+  margin-top: -27px;
+  margin-left: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: gray;
+}
+#search > a i {
+  color: #fc2779;
+  background-color: white;
+}
+/* #search i{
+  margin-left: 20px;
+} */
+hr {
+  margin: 10px 0px 10px 0px;
+  color: #424242;
+}
+#last {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  margin-left: 90px;
+}
+#last > a {
+  text-decoration: none;
+  color: #9e9e9e;
+  font-weight: bold;
+}
+#last > a:hover {
+  color: #fc2779;
+}
+#mid {
+  background-color: #cfd8dc;
+}
+#mid-first {
+  width: 100%;
+}
+#mid-first > img {
+  width: 100%;
+}
+#mid-first button {
+  position: absolute;
+  top: 50%;
+  width: 4%;
+  height: 8%;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+#mid-first button:nth-child(2) {
+  left: 1%;
+}
+#mid-first button:nth-child(3) {
+  right: 1%;
+}
+#body-part {
+  margin: auto;
+}
+.c1 {
+  margin: 30px 0px 0px 50px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  width: 93%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+  color: gray;
+  transition-duration: 0.1s;
+}
+.c1 img {
+  width: 100%;
+}
+.c1:hover {
+  width: 93.1%;
+}
+.c2 {
+  display: flex;
+  gap: 45px;
+  margin:30px 30px 0px 60px;
+  width: 100%;
+}
+.c2 div {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  transition-duration: 0.1s;
+}
+.c2 div:hover {
+  color: #9e9e9e;
+}
+.c2 img {
+  width: 100%;
+}
+.c3 {
+  display: flex;
+  gap: 20px;
+  margin: 40px 40px 0px 60px;
+}
+.c3 div {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+.c3 img {
+  width: 100%;
+  
+}
+.c4 h2 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  color: #424242;
+}
+#c4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(4,1fr); */
+  gap: 25px;
+  margin: 20px 55px 0 50px;
+}
+#c4 > div {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#c4 > div img{
+  width: 100%;
+}

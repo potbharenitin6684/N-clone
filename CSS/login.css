@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#background{
+    background-color: #f5f5f5;
+  }
+form{
+    border-radius: 15px;
+    width: 26%;
+    height: 600px;
+    margin: 0px 0 00px 450px;
+    padding: 35px;
+    font-family:'Times New Roman', Times, serif;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+form p{
+    margin-bottom: 20px;        
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+form input{
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    transition-duration:0.1s ;
+}
+form input:hover{
+    width: 91%;
+    height: 42px;
+    border: 1px solid #e81e62;
+}
+#email{
+    margin-top: 20px;
+    border: 1px solid red;
+    background-color: #eeeeee;
+    font-size: 15px;
+    box-decoration-break: none;
+}
+#password{
+    margin-top: 20px;
+    border: 1px solid red;
+    background-color: #eeeeee;
+    font-size: 15px;
+    box-decoration-break: none;
+}
+#btn{
+    margin-top: 50%;
+    color: white;
+    background-color:#e81e62;
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+#btn:hover{
+    width: 92%;
+    height: 43px;
+    border: 1px solid #e81e62;
+}
